@@ -1,4 +1,4 @@
-for count = 1, 5 do
+Heartbeat = game:GetService("RunService").Heartbeat:Connect(function()
 local args = {
     [1] = "Lucky",
     [2] = 1
@@ -72,3 +72,4 @@ local args = {
 
 game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
 end
+end)
