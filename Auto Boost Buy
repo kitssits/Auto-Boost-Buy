@@ -5,6 +5,9 @@ local args = {
     [2] = 1
 }
 
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+
+
 local args = {
     [1] = "boost1"
 }
@@ -17,11 +20,13 @@ local args = {
     [2] = 2
 }
 
-game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
 local args = {
     [1] = "Super Lucky",
     [2] = 1
 }
+
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+
 
 local args = {
     [1] = "boost2"
