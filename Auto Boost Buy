@@ -71,5 +71,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
-end
 end)
