@@ -7,7 +7,6 @@ local args = {
 
 game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
 
-
 local args = {
     [1] = "boost1"
 }
